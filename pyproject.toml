@@ -1,0 +1,16 @@
+[project]
+name = "l2-agent-engineering-oct"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph>=1.2.17",
+]
+
+[project.scripts]
+l2-agent-engineering-oct = "l2_agent_engineering_oct:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
